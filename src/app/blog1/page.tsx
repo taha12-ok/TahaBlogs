@@ -36,6 +36,7 @@ const blogContent = {
   ),
 };
 
+// Blog Page component
 function BlogPage() {
   return (
     <div className='relative flex flex-col items-center justify-center min-h-screen p-4 md:p-20 overflow-hidden'>
@@ -44,15 +45,14 @@ function BlogPage() {
         <Image
           src='/b1.png'
           alt='Background Image'
-          layout='fill'
-          objectFit='cover'
+          fill={true} // Using the correct property for Next.js Image
+          style={{ objectFit: 'cover', filter: 'blur(8px)' }}
           quality={75}
-          style={{ filter: 'blur(8px)' }}
         />
       </div>
 
       {/* Blog Content */}
-      <div className='relative w-full max-w-lg md:max-w-2xl lg:max-w-4xl bg-gray-100 shadow-lg rounded-lg overflow-hidden border-4 border-transparent hover:border-[rgba(255,0,255,0.5)] transition-all duration-300 group z-10'>
+      <div className='relative w-full max-w-lg md:max-w-2xl lg:max-w-4xl bg-gray-100 shadow-lg rounded-lg overflow-hidden border-4 border-transparent hover:border-purple-500 transition-all duration-300 group z-10'>
         <div className='bg-gradient-to-r from-purple-400 to-pink-600 text-white text-center p-4 transform transition-transform duration-300 group-hover:scale-110'>
           <h1 className='text-2xl md:text-4xl font-bold'>{blogContent.title}</h1>
         </div>
