@@ -12,10 +12,10 @@ function MainBlog() {
           </div>
           <div className="relative md:w-1/2 mt-0 md:mt-0 flex justify-end">
             <div className="relative top-0 left-20 z-5">
-              <img src="/m2.png" alt="Design Image 1" className="w-[1500px] h-[350px]" />
+              <Image  src="/m2.png" alt="Design Image 1" className="w-[1500px] h-[350px]" />
             </div>
             <div className="relative top-12 right-20 z-5">
-              <img src="/m1.png" alt="Design Image 1" className="w-[1500px] h-[350px]" />
+              <Image  src="/m1.png" alt="Design Image 1" className="w-[1500px] h-[350px]" />
             </div>
           </div>
         </div>
@@ -28,10 +28,10 @@ function MainBlog() {
           </div>
           <div className="relative w-full md:w-1/2 mt-0 flex justify-end">
             <div className="p-12 left-5 bottom-10 relative z-2">
-              <img src="/m3.png" alt="Design Image 1" className="w-[320px] h-[200px] sm:w-[480px] sm:h-[200px] md:w-[1200px] md:h-[300px] lg:w-[2400px] lg:h-[380px]" />
+              <Image  src="/m3.png" alt="Design Image 1" className="w-[320px] h-[200px] sm:w-[480px] sm:h-[200px] md:w-[1200px] md:h-[300px] lg:w-[2400px] lg:h-[380px]" />
             </div>
             <div className="-m-3 absolute -bottom-10 left-5 sm:left-10 sm:-bottom-20 z-2">
-              <img src="/m4.png" alt="Design Image 2" className="w-[300px] h-[150px] sm:w-[800px] sm:h-[150px] md:w-[600px] md:h-[180px] lg:w-[800px] lg:h-[200px]" />
+              <Image  src="/m4.png" alt="Design Image 2" className="w-[300px] h-[150px] sm:w-[800px] sm:h-[150px] md:w-[600px] md:h-[180px] lg:w-[800px] lg:h-[200px]" />
             </div>
           </div>
         </div>
@@ -39,7 +39,7 @@ function MainBlog() {
       <div className="bg-teal-700 text-white py-20">
         <div className="container mx-auto px-10 flex flex-col md:flex-row items-center justify-between">
           <div className="right-20 relative">
-            <img src="/m5.png" alt="Design Image 1" className="w-[400px] h-[400px] rounded-lg" />
+            <Image  src="/m5.png" alt="Design Image 1" className="w-[400px] h-[400px] rounded-lg" />
           </div>
           <div className="md:w-1/2">
             <h1 className="text-3xl md:text-5xl font-semibold mb-6">Find Solutions to Your Problems</h1>
@@ -47,10 +47,10 @@ function MainBlog() {
           </div>
           <div className="relative md:w-1/2 mt-0 md:mt-0 flex justify-end">
             <div className="left-60 top-0 relative z-5">
-              <img src="/m6.png" alt="Design Image 1" className="w-[1350px] h-[350px]" />
+              <Image  src="/m6.png" alt="Design Image 1" className="w-[1350px] h-[350px]" />
             </div>
             <div className="relative top-10 right-40">
-              <img src="/m7.png" alt="Design Image 2" className="w-[950px] h-[300px] object-full rounded-lg" />
+              <Image  src="/m7.png" alt="Design Image 2" className="w-[950px] h-[300px] object-full rounded-lg" />
             </div>
           </div>
         </div>
@@ -63,10 +63,10 @@ function MainBlog() {
           </div>
           <div className="relative w-full md:w-1/2 mt-0 flex justify-end">
             <div className="p-12 left-5 bottom-10 relative z-2">
-              <img src="/m8.png" alt="Design Image 1" className="w-[320px] h-[200px] sm:w-[480px] sm:h-[200px] md:w-[1200px] md:h-[300px] lg:w-[2400px] lg:h-[380px]" />
+              <Image  src="/m8.png" alt="Design Image 1" className="w-[320px] h-[200px] sm:w-[480px] sm:h-[200px] md:w-[1200px] md:h-[300px] lg:w-[2400px] lg:h-[380px]" />
             </div>
             <div className="-m-3 absolute -bottom-10 left-5 sm:left-10 sm:-bottom-20 z-2">
-              <img src="/m9.png" alt="Design Image 2" className="w-[300px] h-[150px] sm:w-[800px] sm:h-[150px] md:w-[600px] md:h-[180px] lg:w-[800px] lg:h-[200px]" />
+              <Image  src="/m9.png" alt="Design Image 2" className="w-[300px] h-[150px] sm:w-[800px] sm:h-[150px] md:w-[600px] md:h-[180px] lg:w-[800px] lg:h-[200px]" />
             </div>
           </div>
         </div>
