@@ -6,7 +6,7 @@ const blogContent = {
     content: (
       <div>
         <p className="text-gray-800 text-lg mb-4">
-          In recent years, sustainable investments have emerged as a significant trend in the financial world, reflecting a growing awareness of the impact that businesses have on society and the environment. Investors are increasingly looking to align their financial goals with their values, prioritizing companies that demonstrate a commitment to sustainability. This shift not only promotes responsible investing but also encourages companies to adopt more ethical practices.
+          In recent years, sustainable investments have emerged as a significant trend in the financial world, reflecting a growing awareness of the impact that businesses have on society and the environment. Investors are increasingly looking to align their financial goals with their values, prioritizing companies that demonstrate a commitment to sustainability. This shift promotes responsible investing and encourages companies to adopt more ethical practices.
         </p>
         <p className="text-gray-800 text-lg mb-4">
           Sustainable investments encompass a range of strategies, including environmental, social, and governance (ESG) criteria. These criteria help investors evaluate the ethical implications of their investments, focusing on issues like climate change, human rights, and corporate governance. By incorporating these factors into their investment decisions, individuals can support businesses that contribute positively to society while potentially enjoying financial returns.
@@ -41,7 +41,8 @@ function BlogPage() {
           backgroundImage: 'url(b3.png)',
           filter: 'blur(8px)', 
           zIndex: 0,
-        }}/> 
+        }} 
+      /> 
       <div className="relative w-full max-w-2xl bg-gray-100 shadow-lg rounded-lg overflow-hidden border-4 border-transparent hover:border-[rgba(255,0,255,0.5)] transition-all duration-300 group z-5">
         <div className="bg-gradient-to-r from-purple-400 to-pink-600 text-white text-center p-4 transform transition-transform duration-300 group-hover:scale-110">
           <h1 className="text-3xl md:text-4xl font-bold">{blogContent.title}</h1>
