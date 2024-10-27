@@ -21,7 +21,40 @@ const blogContent = {
       </p>
       <p className='text-gray-800 text-base md:text-lg mb-4'>
         In conclusion, the impact of generative AI in technology is profound and multifaceted. It offers immense potential for enhancing productivity and creativity while also presenting challenges that society must address as we move forward in this rapidly evolving landscape. Embracing this change is crucial for anyone looking to thrive in the tech industry.
+      </p>import Image from 'next/image';
+
+function BlogPage() {
+  return (
+    <div className="relative w-full max-w-lg md:max-w-2xl lg:max-w-4xl mx-auto px-4 py-6">
+      <div className="absolute inset-0 z-[-1] overflow-hidden rounded-lg">
+        <Image
+          src="/b1.png"
+          alt="Background Image"
+          layout="fill"
+          objectFit="cover"
+          quality={75}
+          style={{ filter: 'blur(8px)' }}
+        />
+      </div>
+      <h1 className="text-2xl md:text-4xl font-bold text-gray-800 mb-4">
+        Generative AI in Tech: A Game Changer
+      </h1>
+      <p className="text-sm md:text-lg text-gray-700 mb-6">
+        AI&apos;s recent developments, including OpenAI&apos;s ChatGPT, have taken the world by storm. It&apos;s
+        revolutionizing the way we think about programming, content creation, and many other fields.
       </p>
+      <a
+        href="/blog"
+        className="text-sm md:text-lg text-white bg-gray-700 px-3 md:px-4 py-2 rounded hover:underline hover:text-yellow-400 transition-colors duration-300"
+      >
+        Back To Blogs
+      </a>
+    </div>
+  );
+}
+
+export default BlogPage;
+
       <h2 className='text-lg md:text-xl font-semibold text-gray-900 mt-6 mb-2'>Key Takeaways:</h2>
       <ul className='list-disc list-inside text-gray-800 text-base md:text-lg mb-4'>
         <li>Generative AI enhances content creation efficiency.</li>
