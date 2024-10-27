@@ -61,7 +61,7 @@ function Page() {
           {blogCards.map((card, index) => (
             <div key={index} className="group relative w-full max-w-[300px] bg-gradient-to-r from-[#d8e3ee] to-[#d1e7f5] rounded-xl shadow-xl p-4 hover:shadow-2xl hover:shadow-gray-300 transition-all duration-300 m-3 transform hover:scale-105"> {/* White card with subtle shadow */}
               <div className="overflow-hidden rounded-lg">
-                <img src={card.imageUrl} alt={card.title} className="w-full h-[150px] object-cover group-hover:scale-110 transition-transform duration-300" />
+                <Image src={card.imageUrl} alt={card.title} className="w-full h-[150px] object-cover group-hover:scale-110 transition-transform duration-300" />
               </div>
               <div className="p-4 flex flex-col justify-between" style={{ height: '200px' }}>
                 <div>
