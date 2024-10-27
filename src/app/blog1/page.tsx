@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+
 const blogContent = {
   title: 'Generative AI in Tech',
   description:
@@ -38,26 +39,32 @@ const blogContent = {
 function BlogPage() {
   return (
     <div className="relative flex flex-col items-center justify-center min-h-screen p-4 md:p-20 overflow-hidden">
-      {/* Blurred background image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage: 'url(b1.png)',
-          filter: 'blur(8px)',
-          zIndex: 0,
-        }}
-      />
-      <div className="relative w-full max-w-lg md:max-w-2xl bg-gray-100 shadow-lg rounded-lg overflow-hidden border-4 border-transparent hover:border-[rgba(255,0,255,0.5)] transition-all duration-300 group z-5">
+      {/* Blurred background image using next/image for optimization */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/b1.png"
+          alt="Background Image"
+          layout="fill"
+          objectFit="cover"
+          quality={75}
+          style={{ filter: 'blur(8px)' }}
+        />
+      </div>
+      
+      {/* Blog Content */}
+      <div className="relative w-full max-w-lg md:max-w-2xl bg-gray-100 shadow-lg rounded-lg overflow-hidden border-4 border-transparent hover:border-[rgba(255,0,255,0.5)] transition-all duration-300 group z-10">
         <div className="bg-gradient-to-r from-purple-400 to-pink-600 text-white text-center p-4 transform transition-transform duration-300 group-hover:scale-110">
           <h1 className="text-2xl md:text-4xl font-bold">{blogContent.title}</h1>
         </div>
-        <div className="p-4 md:p-6 bg-customGreen">
+        <div className="p-4 md:p-6 bg-white">
           <p className="text-gray-800 text-base md:text-lg mb-4">
             {blogContent.description}
           </p>
           {blogContent.content}
         </div>
       </div>
+
+      {/* Back to Blogs button */}
       <div className="m-6 md:m-10 font-semibold flex justify-center pb-4 z-10">
         <a
           href="/blog"
