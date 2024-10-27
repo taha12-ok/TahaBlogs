@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from 'next/image';
 const blogContent = {
     title: 'Natural Health Supplements',
     description: 'Natural health supplements are gaining popularity for promoting wellness and enhancing overall health.',
