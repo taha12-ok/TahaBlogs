@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from 'next/image';
 const blogCards = [
   {
     title: 'Generative AI in Tech',
