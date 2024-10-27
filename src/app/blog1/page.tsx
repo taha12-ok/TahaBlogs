@@ -40,10 +40,10 @@ function BlogPage() {
       {/* Blurred background image using next/image for optimization */}
       <div className='absolute inset-0 z-0'>
         <Image
-          src="/b1.png"
-          alt="Background Image"
-          layout="fill"
-          objectFit="cover"
+          src='/b1.png'
+          alt='Background Image'
+          layout='fill'
+          objectFit='cover'
           quality={75}
           style={{ filter: 'blur(8px)' }}
         />
