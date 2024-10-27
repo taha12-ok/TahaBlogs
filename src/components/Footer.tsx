@@ -1,6 +1,4 @@
 import React from 'react';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import { SiVercel } from "react-icons/si";
 
 function Footer() {
   return (
@@ -35,30 +33,7 @@ function Footer() {
               className="text-white font-semibold hover:underline transition duration-300">
               TahaBlog™
             </a>
-            <a
-              href="https://github.com/taha12-ok"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="GitHub"
-              className="text-gray-400 hover:text-white transition duration-300">
-              <FaGithub size={20} />
-            </a>
-            <a
-              href="https://vercel.com/taha-shabbirs-projects"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Vercel"
-              className="text-gray-400 hover:text-white transition duration-300">
-              <SiVercel size={20} />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/taha-shabbir-86367525a/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="LinkedIn"
-              className="text-gray-400 hover:text-white transition duration-300">
-              <FaLinkedin size={20} />
-            </a>
+            
           </div>
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
