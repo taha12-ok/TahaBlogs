@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+
 const blogContent = {
   title: 'Streaming Trends',
   description:
@@ -50,7 +51,7 @@ function BlogPage() {
         <div className="bg-gradient-to-r from-indigo-400 to-purple-600 text-white text-center p-4 transform transition-transform duration-300 group-hover:scale-110">
           <h1 className="text-2xl md:text-4xl font-bold">{blogContent.title}</h1>
         </div>
-        <div className="p-4 md:p-6 bg-customGreen">
+        <div className="p-4 md:p-6 bg-gray-50"> {/* Use a lighter background for readability */}
           <p className="text-gray-800 text-base md:text-lg mb-4">
             {blogContent.description}
           </p>
