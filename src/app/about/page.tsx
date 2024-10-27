@@ -5,7 +5,7 @@ function AboutPage() {
     <div className="min-h-screen p-4 m-0 md:p-20 bg-gradient-to-r from-[#f0f4f8] to-[#e0ecf4]">
       <div className="flex flex-col md:flex-row items-center justify-between my-16 space-y-8 md:space-y-0">
         <div className="md:w-1/2 mb-6 md:mb-0">
-          <img
+          <Image
             src="a1.png"
             alt="My Blogs"
             className="w-full h-auto max-w-xs md:max-w-sm lg:max-w-md object-cover rounded-3xl shadow-lg"
@@ -31,7 +31,7 @@ function AboutPage() {
           </p>
         </div>
         <div className="md:w-1/2 flex justify-center">
-          <img
+          <Image
             src="a2.png"
             alt="My Mission"
             className="w-full h-auto max-w-xs md:max-w-sm lg:max-w-md object-cover rounded-3xl shadow-lg"
@@ -73,7 +73,7 @@ function AboutPage() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
+              <Image
                 src="a4.png"
                 alt="Creator of TahaBlog"
                 className="w-full h-auto object-cover rounded-full shadow-lg transition-all duration-300 hover:shadow-2xl hover:shadow-black cursor-pointer"
@@ -90,7 +90,7 @@ function AboutPage() {
           </p>
         </div>
         <div className="md:w-1/2 mb-6 md:mb-0">
-          <img
+          <Image
             src="a5.png"
             alt="Final Section"
             className="w-full h-auto max-w-xs md:max-w-sm lg:max-w-md object-cover rounded-3xl shadow-lg"
