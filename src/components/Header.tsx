@@ -56,7 +56,7 @@ export default function Header() {
         <nav className="container mx-auto p-4 flex justify-between items-center">
           <div className="flex items-center">
             <Link href="/">
-              <img
+              <Image 
                 src="logo.png"
                 className="h-12 w-auto object-contain"
                 alt=""/>
