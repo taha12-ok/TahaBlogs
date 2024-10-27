@@ -1,5 +1,6 @@
 import React from 'react';
-import Image from 'next/image';
+import Image from 'next/image'; // Assuming you will add images later
+
 const blogContent = {
   title: 'EdTech Innovations',
   description:
@@ -42,7 +43,7 @@ function BlogPage() {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: 'url(b5.png)', 
+          backgroundImage: 'url(b5.png)',
           filter: 'blur(8px)',
           zIndex: 0,
         }}
