@@ -20,11 +20,9 @@ const blogContent = {
         Furthermore, generative AI is not just limited to writing or coding; it's also being applied in creative fields such as art and music. Artists are now collaborating with AI tools to enhance their creative process, resulting in unique works that blend human and machine creativity. This fusion opens up new possibilities for innovation and exploration in various domains.
       </p>
       <p className="text-gray-800 text-base md:text-lg mb-4">
-        In conclusion, the impact of generative AI in technology is profound and multifaceted. It offers immense potential for enhancing productivity and creativity, while also presenting challenges that society must address as we move forward in this rapidly evolving landscape. Embracing this change is crucial for anyone looking to thrive in the tech industry.
+        In conclusion, the impact of generative AI in technology is profound and multifaceted. It offers immense potential for enhancing productivity and creativity while also presenting challenges that society must address as we move forward in this rapidly evolving landscape. Embracing this change is crucial for anyone looking to thrive in the tech industry.
       </p>
-      <h2 className="text-lg md:text-xl font-semibold text-gray-900 mt-6 mb-2">
-        Key Takeaways:
-      </h2>
+      <h2 className="text-lg md:text-xl font-semibold text-gray-900 mt-6 mb-2">Key Takeaways:</h2>
       <ul className="list-disc list-inside text-gray-800 text-base md:text-lg mb-4">
         <li>Generative AI enhances content creation efficiency.</li>
         <li>AI tools assist in coding and debugging tasks.</li>
@@ -50,7 +48,7 @@ function BlogPage() {
           style={{ filter: 'blur(8px)' }}
         />
       </div>
-      
+
       {/* Blog Content */}
       <div className="relative w-full max-w-lg md:max-w-2xl bg-gray-100 shadow-lg rounded-lg overflow-hidden border-4 border-transparent hover:border-[rgba(255,0,255,0.5)] transition-all duration-300 group z-10">
         <div className="bg-gradient-to-r from-purple-400 to-pink-600 text-white text-center p-4 transform transition-transform duration-300 group-hover:scale-110">
