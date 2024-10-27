@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from 'next/image';
 const blogContent = {
   title: 'Eco-Friendly Fashion',
   description: 'Eco-friendly fashion is transforming the clothing industry by prioritizing sustainability and ethical practices in garment production.',
