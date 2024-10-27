@@ -4,11 +4,12 @@ import React from 'react';
 function AboutPage() {
   return (
     <div className="min-h-screen p-4 m-0 md:p-20 bg-gradient-to-r from-[#f0f4f8] to-[#e0ecf4]">
-      <div className="flex flex-col md:flex-row items-center justify-between my-16 space-y-8 md:space-y-0">
+      {/* Section: My Blogs */}
+      <section className="flex flex-col md:flex-row items-center justify-between my-16 space-y-8 md:space-y-0">
         <div className="md:w-1/2 mb-6 md:mb-0">
           <Image
             src="a1.png"
-            alt="My Blogs"
+            alt="A visual representation of my blog"
             className="w-full h-auto max-w-xs md:max-w-sm lg:max-w-md object-cover rounded-3xl shadow-lg"
           />
         </div>
@@ -20,9 +21,10 @@ function AboutPage() {
             Welcome to TahaBlog, where I share my insights on the latest trends in tech, programming, AI, and much more. Stay tuned for regular updates on topics that matter to tech enthusiasts and developers alike.
           </p>
         </div>
-      </div>
+      </section>
 
-      <div className="flex flex-col md:flex-row items-center justify-between my-16 space-y-8 md:space-y-0">
+      {/* Section: My Mission */}
+      <section className="flex flex-col md:flex-row items-center justify-between my-16 space-y-8 md:space-y-0">
         <div className="md:w-1/2 md:pr-10 mb-6 md:mb-0">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 hover:text-red-500 transition duration-300 cursor-pointer">
             My Mission
@@ -34,17 +36,18 @@ function AboutPage() {
         <div className="md:w-1/2 flex justify-center">
           <Image
             src="a2.png"
-            alt="My Mission"
+            alt="Illustration of my mission"
             className="w-full h-auto max-w-xs md:max-w-sm lg:max-w-md object-cover rounded-3xl shadow-lg"
           />
         </div>
-      </div>
+      </section>
 
-      <div className="flex flex-col md:flex-row items-center justify-between my-16 space-y-8 md:space-y-0">
+      {/* Section: Privacy Policy */}
+      <section className="flex flex-col md:flex-row items-center justify-between my-16 space-y-8 md:space-y-0">
         <div className="md:w-1/2 mb-6 md:mb-0">
-          <img
+          <Image
             src="a3.png"
-            alt="Privacy Policy"
+            alt="Privacy Policy Illustration"
             className="w-full h-auto max-w-xs md:max-w-sm lg:max-w-md object-cover rounded-3xl shadow-lg"
           />
         </div>
@@ -56,9 +59,10 @@ function AboutPage() {
             At TahaBlog, we respect your privacy. Any information we collect from our users will be kept confidential, ensuring a safe browsing experience. We believe in transparency and trust with our readers.
           </p>
         </div>
-      </div>
+      </section>
 
-      <div className="bg-gray-300 p-10 rounded-lg shadow-inner my-30 space-y-8 md:space-y-0">
+      {/* Section: Creator of TahaBlog */}
+      <section className="bg-gray-300 p-10 rounded-lg shadow-inner my-30 space-y-8 md:space-y-0">
         <div className="flex flex-col md:flex-row items-center justify-between my-16">
           <div className="md:w-1/2 md:pr-10">
             <h2 className="text-2xl md:text-5xl font-bold mb-4 p-5 hover:text-purple-500 transition duration-300 cursor-pointer">
@@ -76,15 +80,16 @@ function AboutPage() {
             >
               <Image
                 src="a4.png"
-                alt="Creator of TahaBlog"
+                alt="Portrait of Taha Shabbir"
                 className="w-full h-auto object-cover rounded-full shadow-lg transition-all duration-300 hover:shadow-2xl hover:shadow-black cursor-pointer"
               />
             </a>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className="flex flex-col md:flex-row-reverse items-center justify-between my-10 space-y-8 md:space-y-0">
+      {/* Section: Final Thoughts */}
+      <section className="flex flex-col md:flex-row-reverse items-center justify-between my-10 space-y-8 md:space-y-0">
         <div className="md:w-1/2 md:pl-10">
           <p className="text-gray-500 text-base md:text-lg lg:text-2xl p-4 mb-3">
             TahaBlog is constantly evolving to bring you the most relevant, up-to-date content on technology and programming. As the tech world changes, so does the blog, ensuring that you always have access to cutting-edge insights and tips.
@@ -93,11 +98,11 @@ function AboutPage() {
         <div className="md:w-1/2 mb-6 md:mb-0">
           <Image
             src="a5.png"
-            alt="Final Section"
+            alt="Final Section Illustration"
             className="w-full h-auto max-w-xs md:max-w-sm lg:max-w-md object-cover rounded-3xl shadow-lg"
           />
         </div>
-      </div>
+      </section>
     </div>
   );
 }
