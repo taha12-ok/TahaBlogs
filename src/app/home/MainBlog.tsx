@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import React from 'react';
-import { FaStreetView } from "react-icons/fa6";
 
 function MainBlog() {
   return (
@@ -91,16 +90,6 @@ function MainBlog() {
                 View My Blog
              </button>
             </Link>
-            <div className="relative gap-10 flex inset-0 m-2 sm:m-6 md:m-8 lg:m-10 justify-center z-5">
-              <FaStreetView size={58} className="text-gray-300 m-2" />
-              <FaStreetView size={58} className="text-gray-300 m-2" />
-              <FaStreetView size={58} className="text-gray-300 m-2" />
-              <FaStreetView size={58} className="text-gray-300 m-2" />
-              <FaStreetView size={58} className="text-gray-300 m-2" />
-              <FaStreetView size={58} className="text-gray-300 m-2" />
-              <FaStreetView size={58} className="text-gray-300 m-2" />
-              <FaStreetView size={58} className="text-gray-300 m-2" />
-            </div>
           </div>
         </div>
       </div>
