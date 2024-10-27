@@ -36,7 +36,6 @@ const blogContent = {
   ),
 };
 
-// Blog Page component
 function BlogPage() {
   return (
     <div className='relative flex flex-col items-center justify-center min-h-screen p-4 md:p-20 overflow-hidden'>
