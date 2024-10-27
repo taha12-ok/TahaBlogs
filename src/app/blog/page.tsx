@@ -1,83 +1,110 @@
+import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
-const blogCards = [
-  {
-    title: 'Generative AI in Tech',
-    description: 'AI tools like ChatGPT are transforming content creation and programming, making them a hot topic in tech.',
-    imageUrl: 'b1.png',
-    link: '/blog1',
-  },
-  {
-    title: 'Natural Health Supplements',
-    description: 'Products like CBG gummies and sea moss are gaining traction for their holistic health benefits.',
-    imageUrl: 'b2.png',
-    link: '/blog2',
-  },
-  {
-    title: 'Sustainable Investments',
-    description: 'Green bonds and ESG investing are trending among those looking to align their portfolios with sustainability.',
-    imageUrl: 'b3.png',
-    link: '/blog3',
-  },
-  {
-    title: 'Eco-Friendly Fashion',
-    description: 'Blogs focusing on ethical, sustainable fashion are popular as consumers aim to reduce their environmental impact.',
-    imageUrl: 'b4.png',
-    link: '/blog4',
-  },
-  {
-    title: 'EdTech Innovations',
-    description: 'Virtual learning and AI-powered education tools are reshaping how we teach and learn.',
-    imageUrl: 'b5.png',
-    link: '/blog5',
-  },
-  {
-    title: 'Streaming Trends',
-    description: 'Streaming platforms are using AI to enhance viewer experience with personalized recommendations.',
-    imageUrl: 'b6.png',
-    link: '/blog6',
-  },
-];
 
-function Page() {
+function MainBlog() {
   return (
     <>
-      <div className="flex flex-col items-center justify-center min-h-[200px] bg-gradient-to-r from-[#d8e3ee] to-[#d1e7f5] p-6"> {/* Updated background to light gray */}
-        <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-2 tracking-wider" style={{ fontFamily: "'Playfair Display', serif" }}>
-          {Array.from('Trending Blog').map((letter, index) => (
-            <span key={index} className="inline-block transition-colors duration-100 ease-in-out hover:text-red-500" style={{ transitionDelay: `${index * 0}ms` }}>
-              {letter === ' ' ? '\u00A0' : letter}
-            </span>
-          ))}
-        </h1>
-        <div className="relative overflow-hidden w-full mt-4">
-          <p className="text-md md:text-lg text-gray-600 whitespace-nowrap animate-marquee">
-            Fun with the trending blogs and insightful reads! | Explore the latest ideas, trends, and stories from around the world! | Stay informed, stay curious!
-          </p>
+      {/* Section 1 */}
+      <div className="bg-teal-700 text-white py-20">
+        <div className="container mx-auto px-10 flex flex-col md:flex-row items-center justify-between">
+          <div className="md:w-1/2">
+            <h1 className="text-3xl md:text-5xl font-semibold mb-6">Discover Exciting Stories</h1>
+            <p className="text-lg md:text-normal">Explore a variety of engaging and insightful blogs written just for you. Dive into topics that inspire, inform, and entertain.</p>
+          </div>
+          <div className="relative md:w-1/2 mt-0 md:mt-0 flex justify-end">
+            <div className="relative top-0 left-20 z-5">
+              <Image src="/m2.png" alt="Design Image 1" width={600} height={350} />
+            </div>
+            <div className="relative top-12 right-20 z-5">
+              <Image src="/m1.png" alt="Design Image 2" width={600} height={350} />
+            </div>
+          </div>
         </div>
       </div>
-      <div className="flex justify-center w-full min-h-[800px] bg-white p-6"> {/* Light gray background */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
-          {blogCards.map((card, index) => (
-            <div key={index} className="group relative w-full max-w-[300px] bg-gradient-to-r from-[#d8e3ee] to-[#d1e7f5] rounded-xl shadow-xl p-4 hover:shadow-2xl hover:shadow-gray-300 transition-all duration-300 m-3 transform hover:scale-105"> {/* White card with subtle shadow */}
-              <div className="overflow-hidden rounded-lg">
-                <Image src={card.imageUrl} alt={card.title} className="w-full h-[150px] object-cover group-hover:scale-110 transition-transform duration-300" />
-              </div>
-              <div className="p-4 flex flex-col justify-between" style={{ height: '200px' }}>
-                <div>
-                  <h2 className="text-gray-900 font-semibold text-lg">{card.title}</h2>
-                  <p className="text-gray-600 text-sm mt-2">{card.description}</p>
-                </div>
-                <a href={card.link} className="mt-4 px-16 py-2 bg-teal-700 text-white rounded-lg hover:bg-gray-900 hover:text-white transition-colors duration-300">
-                  Read More
-                </a>
-              </div>
+
+      {/* Section 2 */}
+      <div className="bg-slate-500 text-white py-20">
+        <div className="container mx-auto px-10 flex flex-col md:flex-row items-center justify-between">
+          <div className="md:w-1/2">
+            <h1 className="text-3xl md:text-5xl font-semibold mb-6">Explore Unique Perspectives</h1>
+            <p className="text-lg md:text-normal">Enjoy reading blogs that offer unique viewpoints and thought-provoking ideas on topics you care about.</p>
+          </div>
+          <div className="relative w-full md:w-1/2 mt-0 flex justify-end">
+            <div className="p-12 left-5 bottom-10 relative z-2">
+              <Image src="/m3.png" alt="Design Image 3" width={1200} height={300} />
             </div>
-          ))}
+            <div className="-m-3 absolute -bottom-10 left-5 sm:left-10 sm:-bottom-20 z-2">
+              <Image src="/m4.png" alt="Design Image 4" width={800} height={200} />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Section 3 */}
+      <div className="bg-teal-700 text-white py-20">
+        <div className="container mx-auto px-10 flex flex-col md:flex-row items-center justify-between">
+          <div className="right-20 relative">
+            <Image src="/m5.png" alt="Design Image 5" width={400} height={400} className="rounded-lg" />
+          </div>
+          <div className="md:w-1/2">
+            <h1 className="text-3xl md:text-5xl font-semibold mb-6">Find Solutions to Your Problems</h1>
+            <p className="text-lg md:text-normal">Browse helpful guides and how-tos that provide practical solutions and advice for your everyday challenges.</p>
+          </div>
+          <div className="relative md:w-1/2 mt-0 md:mt-0 flex justify-end">
+            <div className="left-60 top-0 relative z-5">
+              <Image src="/m6.png" alt="Design Image 6" width={1350} height={350} />
+            </div>
+            <div className="relative top-10 right-40">
+              <Image src="/m7.png" alt="Design Image 7" width={950} height={300} className="rounded-lg" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Section 4 */}
+      <div className="bg-slate-500 text-white py-20">
+        <div className="container mx-auto px-10 flex flex-col md:flex-row items-center justify-between">
+          <div className="md:w-1/2">
+            <h1 className="text-3xl md:text-5xl font-semibold mb-6">Follow Your Interests</h1>
+            <p className="text-lg md:text-normal">Discover blogs on topics that matter to you, from [topic 1] to [topic 2], and everything in between.</p>
+          </div>
+          <div className="relative w-full md:w-1/2 mt-0 flex justify-end">
+            <div className="p-12 left-5 bottom-10 relative z-2">
+              <Image src="/m8.png" alt="Design Image 8" width={1200} height={300} />
+            </div>
+            <div className="-m-3 absolute -bottom-10 left-5 sm:left-10 sm:-bottom-20 z-2">
+              <Image src="/m9.png" alt="Design Image 9" width={800} height={200} />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Section 5 with Map */}
+      <div className="relative bg-orange-500 text-white py-20">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=YOUR_MAP_EMBED_LINK"
+          className="absolute inset-0 w-full h-full opacity-40"
+          style={{ border: '0' }}
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade">
+        </iframe>
+        <div className="absolute inset-0 bg-orange-500 opacity-70"></div>
+        <div className="container mx-auto px-4 flex flex-col items-center justify-center relative z-5">
+          <div className="text-center">
+            <h1 className="text-3xl md:text-5xl font-semibold mb-6">Join the Conversation</h1>
+            <p className="text-lg md:text-normal mb-6">Engage with the community by leaving comments and sharing your thoughts on our blog posts.</p>
+            <Link href="/blog">
+              <button className="bg-gray-700 text-gray-100 font-semibold px-6 py-3 rounded-md hover:text-yellow-500">
+                View My Blog
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
     </>
   );
 }
 
-export default Page;
+export default MainBlog;
