@@ -6,7 +6,7 @@ const blogContent = {
   content: (
     <div>
       <p className="text-gray-800 text-lg mb-4">
-        In recent years, natural health supplements have emerged as a vital component of many individuals' wellness routines. These supplements, derived from natural sources such as plants, herbs, and minerals, are being embraced for their potential to support overall health and well-being. As consumers become more health-conscious, the demand for effective and safe natural remedies is on the rise.
+        In recent years, natural health supplements have emerged as a vital component of many individuals wellness routines. These supplements, derived from natural sources such as plants, herbs, and minerals, are being embraced for their potential to support overall health and well-being. As consumers become more health-conscious, the demand for effective and safe natural remedies is on the rise.
       </p>
       <p className="text-gray-800 text-lg mb-4">
         One of the key benefits of natural health supplements is their ability to enhance nutritional intake. Many people struggle to meet their daily nutritional needs through diet alone, leading to deficiencies that can impact health. Supplements like vitamins, minerals, and herbal extracts can help fill these gaps, providing essential nutrients that support bodily functions and improve vitality.
@@ -15,10 +15,10 @@ const blogContent = {
         Additionally, natural supplements are often viewed as a safer alternative to synthetic medications. They typically have fewer side effects and can be used to address various health concerns, from boosting immunity to improving digestion. Popular options like turmeric for inflammation, omega-3 fatty acids for heart health, and probiotics for gut health have gained recognition for their positive effects on the body.
       </p>
       <p className="text-gray-800 text-lg mb-4">
-        However, it is crucial to approach natural supplements with caution. While they can offer significant health benefits, not all products are created equal. The supplement industry is vast, and the lack of regulation can lead to quality discrepancies. It's essential to choose reputable brands and consult healthcare professionals before starting any new supplement regimen to ensure safety and effectiveness.
+        However, it is crucial to approach natural supplements with caution. While they can offer significant health benefits, not all products are created equal. The supplement industry is vast, and the lack of regulation can lead to quality discrepancies. Its essential to choose reputable brands and consult healthcare professionals before starting any new supplement regimen to ensure safety and effectiveness.
       </p>
       <p className="text-gray-800 text-lg mb-4">
-        In conclusion, natural health supplements can play an important role in supporting health and wellness. By providing essential nutrients and promoting various bodily functions, these supplements have become increasingly popular among health enthusiasts. As we continue to explore the benefits of natural products, it's vital to stay informed and make educated choices that align with our health goals.
+        In conclusion, natural health supplements can play an important role in supporting health and wellness. By providing essential nutrients and promoting various bodily functions, these supplements have become increasingly popular among health enthusiasts. As we continue to explore the benefits of natural products, its vital to stay informed and make educated choices that align with our health goals.
       </p>
       <h2 className="text-xl font-semibold text-gray-900 mt-6 mb-2">Key Takeaways:</h2>
       <ul className="list-disc list-inside text-gray-800 text-lg mb-4">
