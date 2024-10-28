@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 
 const blogContent = {
   title: 'Streaming Trends',
@@ -11,7 +10,7 @@ const blogContent = {
         The streaming industry has seen explosive growth in recent years, with more people shifting away from traditional cable TV to online streaming platforms. Companies like Netflix, Amazon Prime, and Disney+ are leading the charge, offering on-demand access to vast libraries of content. This shift has redefined how we consume entertainment, with trends such as binge-watching and personalized content recommendations becoming the norm.
       </p>
       <p className="text-gray-800 text-base md:text-lg mb-4">
-        One of the biggest trends in streaming today is the rise of exclusive content, or "originals." Streaming giants are investing billions in creating original movies and TV shows to attract and retain subscribers. These exclusive offerings set platforms apart from one another, fueling competition and giving viewers more reasons to subscribe to multiple services.
+        One of the biggest trends in streaming today is the rise of exclusive content, or originals. Streaming giants are investing billions in creating original movies and TV shows to attract and retain subscribers. These exclusive offerings set platforms apart from one another, fueling competition and giving viewers more reasons to subscribe to multiple services.
       </p>
       <p className="text-gray-800 text-base md:text-lg mb-4">
         Another major trend is the rise of live streaming. Platforms like Twitch, YouTube, and Facebook are expanding beyond gaming content to include live broadcasts of events, talk shows, and even news. Live streaming allows for real-time interaction between content creators and viewers, making it a unique and engaging form of entertainment.
@@ -20,7 +19,7 @@ const blogContent = {
         As mobile devices become more powerful and accessible, mobile streaming has also surged in popularity. Viewers can now watch their favorite shows and movies on the go, leading to a demand for apps that offer a seamless streaming experience across different devices. Additionally, mobile data plans are becoming more affordable, which further supports this trend.
       </p>
       <p className="text-gray-800 text-base md:text-lg mb-4">
-        Lastly, interactive content is gaining traction. Shows like "Black Mirror: Bandersnatch" and platforms like Netflix's interactive storytelling feature allow viewers to make choices that influence the direction of the story, making the viewing experience more engaging. This trend is still in its early stages, but it has the potential to redefine how content is consumed in the future.
+        Lastly, interactive content is gaining traction. Shows like Black Mirror Bandersnatch and platforms like Netflixs interactive storytelling feature allow viewers to make choices that influence the direction of the story, making the viewing experience more engaging. This trend is still in its early stages, but it has the potential to redefine how content is consumed in the future.
       </p>
       <h2 className="text-lg md:text-xl font-semibold text-gray-900 mt-6 mb-2">
         Key Takeaways:
