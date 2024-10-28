@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image'; // Assuming you will add images later
 
 const blogContent = {
   title: 'EdTech Innovations',
