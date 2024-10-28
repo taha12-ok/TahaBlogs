@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';  // Use Link from Next.js for internal routing
 import React from 'react';
 
 const blogCards = [
@@ -43,10 +44,17 @@ const blogCards = [
 function Page() {
   return (
     <>
-      <div className="flex flex-col items-center justify-center min-h-[200px] bg-gradient-to-r from-[#d8e3ee] to-[#d1e7f5] p-6"> {/* Updated background to light gray */}
-        <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-2 tracking-wider" style={{ fontFamily: "'Playfair Display', serif" }}>
+      <div className="flex flex-col items-center justify-center min-h-[200px] bg-gradient-to-r from-[#d8e3ee] to-[#d1e7f5] p-6">
+        <h1
+          className="text-5xl md:text-7xl font-bold text-gray-900 mb-2 tracking-wider"
+          style={{ fontFamily: "'Playfair Display', serif" }}
+        >
           {Array.from('Trending Blog').map((letter, index) => (
-            <span key={index} className="inline-block transition-colors duration-100 ease-in-out hover:text-red-500" style={{ transitionDelay: `${index * 0}ms` }}>
+            <span
+              key={index}
+              className="inline-block transition-colors duration-100 ease-in-out hover:text-red-500"
+              style={{ transitionDelay: `${index * 0}ms` }}
+            >
               {letter === ' ' ? '\u00A0' : letter}
             </span>
           ))}
@@ -57,21 +65,32 @@ function Page() {
           </p>
         </div>
       </div>
-      <div className="flex justify-center w-full min-h-[800px] bg-white p-6"> {/* Light gray background */}
+      <div className="flex justify-center w-full min-h-[800px] bg-white p-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
           {blogCards.map((card, index) => (
-            <div key={index} className="group relative w-full max-w-[300px] bg-gradient-to-r from-[#d8e3ee] to-[#d1e7f5] rounded-xl shadow-xl p-4 hover:shadow-2xl hover:shadow-gray-300 transition-all duration-300 m-3 transform hover:scale-105"> {/* White card with subtle shadow */}
+            <div
+              key={index}
+              className="group relative w-full max-w-[300px] bg-gradient-to-r from-[#d8e3ee] to-[#d1e7f5] rounded-xl shadow-xl p-4 hover:shadow-2xl hover:shadow-gray-300 transition-all duration-300 m-3 transform hover:scale-105"
+            >
               <div className="overflow-hidden rounded-lg">
-                <Image src={card.imageUrl} alt={card.title} className="w-full h-[150px] object-cover group-hover:scale-110 transition-transform duration-300" />
+                <Image
+                  src={card.imageUrl}
+                  alt={card.title}
+                  width={300} // You can adjust the width and height according to your needs
+                  height={150}
+                  className="w-full h-[150px] object-cover group-hover:scale-110 transition-transform duration-300"
+                />
               </div>
               <div className="p-4 flex flex-col justify-between" style={{ height: '200px' }}>
                 <div>
                   <h2 className="text-gray-900 font-semibold text-lg">{card.title}</h2>
                   <p className="text-gray-600 text-sm mt-2">{card.description}</p>
                 </div>
-                <a href={card.link} className="mt-4 px-16 py-2 bg-teal-700 text-white rounded-lg hover:bg-gray-900 hover:text-white transition-colors duration-300">
-                  Read More
-                </a>
+                <Link href={card.link} passHref>
+                  <a className="mt-4 px-16 py-2 bg-teal-700 text-white rounded-lg hover:bg-gray-900 hover:text-white transition-colors duration-300">
+                    Read More
+                  </a>
+                </Link>
               </div>
             </div>
           ))}
