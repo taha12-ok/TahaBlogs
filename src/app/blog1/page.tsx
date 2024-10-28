@@ -15,10 +15,10 @@ const blogContent = {
         Additionally, the implications for programming are profound, as AI can assist in writing code, debugging, and automating repetitive tasks, thus enabling developers to focus on more strategic aspects of their projects.
       </p>
       <p className='text-gray-800 text-base md:text-lg mb-4'>
-        The surge of interest in generative AI has also led to discussions around ethical implications and the future of jobs in tech. Companies are leveraging AI to streamline operations, but there's a growing concern about job displacement and the need for upskilling the workforce. As generative AI continues to evolve, professionals in the industry must adapt and embrace this technology to remain competitive.
+        The surge of interest in generative AI has also led to discussions around ethical implications and the future of jobs in tech. Companies are leveraging AI to streamline operations, but there a growing concern about job displacement and the need for upskilling the workforce. As generative AI continues to evolve, professionals in the industry must adapt and embrace this technology to remain competitive.
       </p>
       <p className='text-gray-800 text-base md:text-lg mb-4'>
-        Furthermore, generative AI is not just limited to writing or coding; it's also being applied in creative fields such as art and music. Artists are now collaborating with AI tools to enhance their creative process, resulting in unique works that blend human and machine creativity. This fusion opens up new possibilities for innovation and exploration in various domains.
+        Furthermore, generative AI is not just limited to writing or coding; its also being applied in creative fields such as art and music. Artists are now collaborating with AI tools to enhance their creative process, resulting in unique works that blend human and machine creativity. This fusion opens up new possibilities for innovation and exploration in various domains.
       </p>
       <p className='text-gray-800 text-base md:text-lg mb-4'>
         In conclusion, the impact of generative AI in technology is profound and multifaceted. It offers immense potential for enhancing productivity and creativity while also presenting challenges that society must address as we move forward in this rapidly evolving landscape. Embracing this change is crucial for anyone looking to thrive in the tech industry.
