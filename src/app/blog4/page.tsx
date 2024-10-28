@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image'; // Importing Image for better optimization
 
 const blogContent = {
   title: 'Eco-Friendly Fashion',
@@ -16,7 +15,7 @@ const blogContent = {
         In addition to materials, eco-friendly fashion focuses on ethical labor practices. Many brands are committed to fair wages and safe working conditions for garment workers, ensuring that their products are not only environmentally friendly but also socially responsible. By supporting these brands, consumers can make a positive impact on the lives of those involved in the fashion supply chain.
       </p>
       <p className="text-gray-800 text-lg mb-4">
-        However, navigating the eco-friendly fashion landscape can be challenging due to the prevalence of "greenwashing." This practice occurs when brands mislead consumers about their sustainability efforts to appear more environmentally friendly than they are. It’s essential for consumers to conduct thorough research and seek out certifications or transparency from brands to ensure they are genuinely contributing to sustainable practices.
+        However, navigating the eco-friendly fashion landscape can be challenging due to the prevalence of greenwashing. This practice occurs when brands mislead consumers about their sustainability efforts to appear more environmentally friendly than they are. Its essential for consumers to conduct thorough research and seek out certifications or transparency from brands to ensure they are genuinely contributing to sustainable practices.
       </p>
       <p className="text-gray-800 text-lg mb-4">
         In conclusion, eco-friendly fashion represents a significant step forward in creating a more sustainable and ethical clothing industry. By choosing to support brands that prioritize environmentally conscious practices, consumers can play a crucial role in driving positive change. The future of fashion lies in our ability to embrace eco-friendly alternatives, ultimately leading to a more sustainable world.
