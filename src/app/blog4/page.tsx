@@ -25,7 +25,7 @@ const blogContent = {
         <li>Eco-friendly fashion focuses on sustainability and reducing environmental impact.</li>
         <li>Using sustainable materials helps lessen pollution and waste in the fashion industry.</li>
         <li>Ethical labor practices are crucial for a socially responsible fashion supply chain.</li>
-        <li>Be aware of greenwashing and research brands' sustainability claims.</li>
+        <li>Be aware of greenwashing and research brands sustainability claims.</li>
         <li>Supporting eco-friendly brands contributes to a more sustainable and ethical future.</li>
       </ul>
     </div>
