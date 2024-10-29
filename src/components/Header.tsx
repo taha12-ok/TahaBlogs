@@ -1,13 +1,11 @@
 "use client";
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { useRouter, usePathname } from 'next/navigation'; // usePathname imported
 import Image from 'next/image';
 
 export default function Header() {
   const [isVisible, setIsVisible] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const pathname = usePathname(); // use usePathname() hook
 
   useEffect(() => {
     const handleScroll = () => {
@@ -46,11 +44,11 @@ export default function Header() {
           <div className="flex items-center">
             <Link href="/">
               <Image
-                src="/logo.png" // Corrected image source path
+                src="/logo.png"
                 className="h-12 w-auto object-contain"
                 alt="Logo"
                 width={48}
-                height={48} // Added width and height for better image rendering
+                height={48}
               />
             </Link>
           </div>
